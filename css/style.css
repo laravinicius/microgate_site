@@ -17,3 +17,26 @@ body {
     box-shadow: 0 0 50px rgba(0,0,0,0.5);
     min-height: 100vh;
 }
+
+.desktop-nav {
+    display: none;
+}
+
+.mobile-only {
+    display: inline-flex;
+}
+
+.mobile-panel {
+    display: block;
+}
+
+@media (min-width: 985px) {
+    .desktop-nav {
+        display: flex;
+    }
+
+    .mobile-only,
+    .mobile-panel {
+        display: none;
+    }
+}
