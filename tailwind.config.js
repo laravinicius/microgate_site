@@ -8,6 +8,9 @@ module.exports = {
                 brand: {
                     dark: '#1f1f1f',
                     light: '#F5F5F7'
+                },
+                metallic: {
+                    dark: '#181818'
                 }
             },
             backgroundImage: {
