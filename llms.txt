@@ -1,0 +1,33 @@
+# Microgate Informática
+
+> IT solutions company based in Campina Grande do Sul (PR), Brazil, operating since 2001. Offers IT management and consulting, network infrastructure, and specialized technical assistance for businesses of all sizes.
+
+The site content is in Portuguese (pt-BR). Microgate Informática serves companies with three main service areas:
+
+- IT Management & Consulting: unlimited corrective maintenance visits, preventive visits every 7 days, hardware/software maintenance, helpdesk channels (WhatsApp, e-mail, phone), e-mail management, virus removal, hardware upgrades, workstation/user setup, Active Directory domains, shared network folders (intranet), backup configuration, printer setup, and server installation/configuration.
+- Network Services & Infrastructure: corrective and preventive maintenance, network management, network design from scratch, cabled and wireless network installation, long-distance wireless network design, rack organization, network certification, network backup, redundancy, routers, switches, and firewalls.
+- Specialized Technical Assistance: motherboard repair, desktop and notebook repair (keyboard, screen, battery, internal components), laser printer repair, tablet and cellphone repair, computer assembly and cleaning, new computer setup, peripherals, hardware analysis and upgrades, formatting with backup, disk space optimization, and software installation.
+
+Contact: phone (41) 3679-7168, WhatsApp (41) 9955-0984, Rua Leonardo Francischelli, 265 - Sala 04, Campina Grande do Sul - PR. Hours: Mon-Fri 09h-18h, Sat 09h-14h.
+
+## Pages
+
+- [Home](https://microgateinformatica.com.br/index.html): Company presentation, location, and contact information
+- [About](https://microgateinformatica.com.br/sobre.html): Company history, mission, and vision
+- [Services](https://microgateinformatica.com.br/servicos.html): Overview of the solutions offered
+- [Clients](https://microgateinformatica.com.br/clientes.html): Client logos served by the company
+- [Connection test](https://microgateinformatica.com.br/testeconexao.html): Internet speed test tool
+
+## Services
+
+- [IT Management & Consulting](https://microgateinformatica.com.br/consultoria.html): Complete list of IT management and consulting services
+- [Network Services & Infrastructure](https://microgateinformatica.com.br/rede.html): Complete list of network and infrastructure services
+- [Specialized Technical Assistance](https://microgateinformatica.com.br/assistencia.html): Complete list of technical assistance services
+
+## Optional
+
+- [Quote via WhatsApp](https://wa.me/554199550984): Request a personalized budget
+- [Client Portal](https://sistema.microgateinformatica.com.br/central/login.php): Customer access portal
+- [Facebook](https://facebook.com/microgatenet): Official Facebook page
+- [Instagram](https://instagram.com/microgateinformatica): Official Instagram page
+- [ABNT2 keyboard test](https://microgateinformatica.com.br/teste_teclado.html): Keyboard testing tool

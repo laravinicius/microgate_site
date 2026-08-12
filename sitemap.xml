@@ -6,15 +6,31 @@
   </url>
 
   <url>
+    <loc>https://microgateinformatica.com.br/sobre</loc>
+  </url>
+
+  <url>
     <loc>https://microgateinformatica.com.br/servicos</loc>
   </url>
 
   <url>
-    <loc>https://microgateinformatica.com.br/contato</loc>
+    <loc>https://microgateinformatica.com.br/assistencia</loc>
   </url>
 
   <url>
-    <loc>https://microgateinformatica.com.br/sobre</loc>
+    <loc>https://microgateinformatica.com.br/consultoria</loc>
+  </url>
+
+  <url>
+    <loc>https://microgateinformatica.com.br/rede</loc>
+  </url>
+
+  <url>
+    <loc>https://microgateinformatica.com.br/clientes</loc>
+  </url>
+
+  <url>
+    <loc>https://microgateinformatica.com.br/testeconexao</loc>
   </url>
 
 </urlset>

@@ -17,7 +17,9 @@ Tailwind CLI runs despite `main: "index.js"` pointing at a file that doesn't exi
 
 ## Architecture
 - Pages: `index.html`, `sobre.html`, `servicos.html`, `consultoria.html`, `rede.html`, `assistencia.html`, `clientes.html`, `restricted.html`, `testeconexao.html`.
+- `teste_teclado.html` (ABNT2 keyboard test tool) is self-contained: inline `<style>`/JS + jsPDF CDN, NO header/footer placeholders or `components.js`. Don't apply the standard page wiring to it.
 - `js/escala.js` / `js/escala-abas.js` are internal-only (tech schedule); not used by public pages.
+- Root artifacts to leave alone: `googlece07dce70d4eb9a2.html` (Google Search Console verification), `robots.txt` / `sitemap.xml` (reference production domain `microgateinformatica.com.br`).
 - Custom (non-Tailwind) styling lives in `css/style.css` (`boxed-layout`, `content-wrapper` classes).
 
 ## Backend
