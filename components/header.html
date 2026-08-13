@@ -50,10 +50,39 @@
                     class="flex items-center gap-2 hover:text-gray-400 transition px-3 py-2 border border-white/10 rounded-md hover:bg-white/5">
                     <i data-lucide="lock" class="w-4 h-4 text-gray-400"></i> Restrito
                 </a>
-                <a href="SuporteTi.exe"
-                    class="flex items-center gap-2 hover:text-gray-400 transition px-3 py-2 border border-white/10 rounded-md hover:bg-white/5">
-                    <i data-lucide="download" class="w-4 h-4 text-gray-400"></i> Suporte Remoto
-                </a>
+                <div class="relative group">
+                    <a href="#"
+                        class="flex items-center gap-2 hover:text-gray-400 transition px-3 py-2 border border-white/10 rounded-md hover:bg-white/5">
+                        <i data-lucide="download" class="w-4 h-4 text-gray-400"></i> Suporte Remoto
+                        <i data-lucide="chevron-down" class="w-3 h-3 transition-transform group-hover:rotate-180"></i>
+                    </a>
+                    <div
+                        class="absolute left-0 mt-0 w-56 pt-2 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
+                        <div class="bg-[#1a1a1a] border border-white/10 rounded-md shadow-lg overflow-hidden">
+                            <a href="Downloads/suporte_microgate.exe"
+                                class="flex items-center gap-2 px-4 py-2 hover:bg-white/5 transition border-b border-white/5 text-sm">
+                                <i data-lucide="microscope" class="w-4 h-4 text-gray-400"></i> Microgate
+                            </a>
+                            <a href="Downloads/SuporteTi.exe"
+                                class="flex items-center gap-2 px-4 py-2 hover:bg-white/5 transition border-b border-white/5 text-sm">
+                                <i data-lucide="monitor" class="w-4 h-4 text-gray-400"></i> Windows
+                            </a>
+                            <a href="Downloads/SuporteTi-x86_64.dmg"
+                                class="flex items-center gap-2 px-4 py-2 hover:bg-white/5 transition border-b border-white/5 text-sm">
+                                <i data-lucide="apple" class="w-4 h-4 text-gray-400"></i> Mac X86
+                            </a>
+                            <a href="Downloads/SuporteTi-aarch64.dmg"
+                                class="flex items-center gap-2 px-4 py-2 hover:bg-white/5 transition border-b border-white/5 text-sm">
+                                <i data-lucide="apple" class="w-4 h-4 text-gray-400"></i> Mac Arch
+                            </a>
+                            <span
+                                class="flex items-center gap-2 px-4 py-2 text-sm opacity-50 cursor-not-allowed">
+                                <i data-lucide="terminal" class="w-4 h-4 text-gray-400"></i> Linux
+                                <span class="text-xs text-gray-500">(em breve)</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -103,10 +132,31 @@
                 class="flex items-center gap-4 p-4 rounded-xl hover:bg-white/5 transition border border-transparent hover:border-white/10">
                 <i data-lucide="lock" class="w-5 h-5 text-gray-400"></i> Restrito
             </a>
-            <a href="SuporteTi.exe"
-                class="flex items-center gap-4 p-4 rounded-xl hover:bg-white/5 transition border border-transparent hover:border-white/10">
-                <i data-lucide="download" class="w-5 h-5 text-gray-400"></i> Suporte Remoto
-            </a>
+            <div class="p-4 rounded-xl border border-white/10 bg-white/5">
+                <span class="flex items-center gap-4 text-white font-medium italic mb-3">
+                    <i data-lucide="download" class="w-5 h-5 text-gray-400"></i> Suporte Remoto
+                </span>
+                <a href="Downloads/suporte_microgate.exe"
+                    class="flex items-center gap-3 px-2 py-2 rounded-lg hover:bg-white/5 transition text-sm">
+                    <i data-lucide="microscope" class="w-4 h-4 text-gray-400"></i> Microgate
+                </a>
+                <a href="Downloads/SuporteTi.exe"
+                    class="flex items-center gap-3 px-2 py-2 rounded-lg hover:bg-white/5 transition text-sm">
+                    <i data-lucide="monitor" class="w-4 h-4 text-gray-400"></i> Windows
+                </a>
+                <a href="Downloads/SuporteTi-x86_64.dmg"
+                    class="flex items-center gap-3 px-2 py-2 rounded-lg hover:bg-white/5 transition text-sm">
+                    <i data-lucide="apple" class="w-4 h-4 text-gray-400"></i> Mac X86
+                </a>
+                <a href="Downloads/SuporteTi-aarch64.dmg"
+                    class="flex items-center gap-3 px-2 py-2 rounded-lg hover:bg-white/5 transition text-sm">
+                    <i data-lucide="apple" class="w-4 h-4 text-gray-400"></i> Mac Arch
+                </a>
+                <span class="flex items-center gap-3 px-2 py-2 text-sm opacity-50 cursor-not-allowed">
+                    <i data-lucide="terminal" class="w-4 h-4 text-gray-400"></i> Linux
+                    <span class="text-xs text-gray-500">(em breve)</span>
+                </span>
+            </div>
         </nav>
     </div>
 </div>
