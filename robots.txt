@@ -2,5 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /restricted.html
 Disallow: /suporte_microgate.exe
+Disallow: /SuporteTi.exe
+
 
 Sitemap: https://microgateinformatica.com.br/sitemap.xml
