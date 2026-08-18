@@ -17,6 +17,7 @@ Contact: phone (41) 3679-7168, WhatsApp (41) 9955-0984, Rua Leonardo Francischel
 - [Services](https://microgateinformatica.com.br/servicos.html): Overview of the solutions offered
 - [Clients](https://microgateinformatica.com.br/clientes.html): Client logos served by the company
 - [Connection test](https://microgateinformatica.com.br/testeconexao.html): Internet speed test tool
+- [IT tips](https://microgateinformatica.com.br/dicas-ti.html): Curated videos from the Cidadão na Rede (NIC.br) project on digital security, data protection, and responsible internet use
 
 ## Services
 

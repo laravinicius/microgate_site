@@ -13,6 +13,8 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="./js/theme.js"></script>
     <script src="./js/components.js" defer></script>
+    <script src="./data/dicas-ti-videos.js"></script>
+    <script src="./js/dicas-ti.js" defer></script>
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
@@ -126,6 +128,41 @@
                                     Iniciar Atendimento por WhatsApp
                                 </a>
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="dicas-ti" class="pt-2 pb-20">
+                    <div class="max-w-7xl mx-auto px-4">
+                        <div class="text-center mb-16">
+                            <h2 class="text-3xl md:text-5xl font-black italic tracking-tight uppercase text-white">Dicas
+                                de <span class="bg-metallic-chrome bg-clip-text text-transparent pr-2">TI</span></h2>
+                            <div class="w-20 h-1.5 bg-metallic-chrome mx-auto mt-4 rounded-full"></div>
+                            <p class="mt-4 opacity-70 max-w-2xl mx-auto text-gray-300">
+                                Vídeos do projeto Cidadão na Rede (NIC.br) sobre segurança digital, proteção de dados
+                                e uso responsável da Internet.
+                            </p>
+                        </div>
+
+                        <div class="relative">
+                            <button id="dicas-ti-prev" aria-label="Vídeos anteriores"
+                                class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-5 z-10 w-11 h-11 items-center justify-center rounded-full bg-white/10 border border-white/10 text-white hover:bg-white/20 transition">
+                                <i data-lucide="chevron-left" class="w-6 h-6"></i>
+                            </button>
+                            <button id="dicas-ti-next" aria-label="Próximos vídeos"
+                                class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-5 z-10 w-11 h-11 items-center justify-center rounded-full bg-white/10 border border-white/10 text-white hover:bg-white/20 transition">
+                                <i data-lucide="chevron-right" class="w-6 h-6"></i>
+                            </button>
+
+                            <div id="dicas-ti-carousel"
+                                class="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 px-1">
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-10">
+                            <a href="dicas-ti.html"
+                                class="inline-flex items-center justify-center border border-brand-light/20 text-brand-light px-8 py-3 rounded-full font-bold hover:bg-gray-800 transition gap-2">
+                                Ver todas as dicas <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                            </a>
                         </div>
                     </div>
                 </section>
