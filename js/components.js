@@ -46,9 +46,20 @@ async function loadComponents() {
     }
 
     // Reinicializa ícones após carregar o HTML dinâmico
+    createIconsOnceReady();
+}
+
+function createIconsOnceReady() {
     if (window.lucide) {
         window.lucide.createIcons();
+        return;
     }
+    // Se o lucide ainda não carregou, tenta novamente quando estiver disponível
+    window.addEventListener('load', function onLoad() {
+        if (window.lucide) {
+            window.lucide.createIcons();
+        }
+    });
 }
 
 document.addEventListener('DOMContentLoaded', loadComponents);

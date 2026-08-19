@@ -1,6 +1,13 @@
 body {
-    background-image: url('../img/background.jpg'); 
-    background-attachment: fixed;
+    background-color: transparent !important;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: url('../img/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
