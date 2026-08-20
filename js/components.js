@@ -6,7 +6,10 @@ async function loadComponents() {
 
     for (const comp of components) {
         try {
-            const response = await fetch(comp.file);
+            const response = await fetch(
+                `${comp.file}?v=${window.APP_VERSION || Date.now()}`,
+                { cache: "no-cache" },
+            );
             const html = await response.text();
             const el = document.getElementById(comp.id);
             if (el) {

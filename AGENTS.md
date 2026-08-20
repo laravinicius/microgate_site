@@ -7,6 +7,8 @@ Static, multi-page marketing site for Microgate Informática (pt-BR). Plain HTML
 - `npm run build` — one-shot Tailwind build of `css/output.css`
 - No test/lint scripts. `npm test` just errors. Don't add one unless asked.
 
+`npm run build` also triggers `postbuild` (`scripts/bump-cache-version.js`), which regenerates `js/version.js` and rewrites the `?v=` cache-busting query on every local css/js asset reference across the root `*.html` files. Always run `npm run build` before committing any change to `src/input.css`, `tailwind.config.js`, `components/*.html`, or any `.html`/`.js` referenced in the `<head>`, and commit the regenerated files together (`css/output.css`, `js/version.js`, and the `*.html` with new `?v=`). `npm run dev` (watch) does NOT bump the version — use `build` when you want a new cache version. `js/version.js` is committed and must never be added to `.gitignore`.
+
 Tailwind CLI runs despite `main: "index.js"` pointing at a file that doesn't exist — ignore that field. `css/output.css` is committed; rebuild it after editing Tailwind classes or `tailwind.config.js`.
 
 ## Gotchas

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./css/output.css --watch",
-    "build": "node ./node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./css/output.css"
+    "build": "node ./node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./css/output.css",
+    "postbuild": "node scripts/bump-cache-version.js"
   },
   "repository": {
     "type": "git",

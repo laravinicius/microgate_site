@@ -47,7 +47,8 @@ microgate_site/
 ├── js/
 │   ├── components.js       # Script para carregar componentes (header, footer)
 │   ├── escala-abas.js      # Script para gerenciamento de abas de escala (uso interno)
-│   └── theme.js            # Script para alternar temas (dark/light)
+│   ├── theme.js            # Script para alternar temas (dark/light)
+│   └── version.js          # Versão de cache gerada pelo postbuild (cache busting)
 ├── components/
 │   ├── footer.html         # Componente HTML do rodapé
 │   └── header.html         # Componente HTML do cabeçalho
@@ -65,6 +66,8 @@ microgate_site/
 ## Como Executar
 
 Este é um site estático. Para visualizá-lo, basta abrir qualquer um dos arquivos `.html` diretamente em seu navegador web. Para um ambiente de desenvolvimento ou produção, os arquivos podem ser servidos por qualquer servidor web (Apache, Nginx, etc.).
+
+> Sempre rodar `npm run build` antes de commitar qualquer mudança em `src/input.css`, `tailwind.config.js`, `components/*.html`, ou qualquer arquivo `.html`/`.js` referenciado no `<head>`. O `postbuild` atualiza os `?v=` (cache busting) automaticamente — commitar os arquivos alterados junto (`css/output.css`, `js/version.js` e os `.html` com novo `?v=`).
 
 1.  Clone o repositório:
     ```bash
