@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./css/output.css --watch",
     "build": "node ./node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./css/output.css",
-    "postbuild": "node scripts/bump-cache-version.js"
+    "postbuild": "node scripts/bump-cache-version.js",
+    "optimize:images": "node scripts/optimize-images.js"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
+    "sharp": "^0.35.3",
     "sqlite3": "^5.1.7"
   }
 }
