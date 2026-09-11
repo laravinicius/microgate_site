@@ -10,6 +10,7 @@ const ASSETS = [
   "./js/theme.js",
   "./js/components.js",
   "./js/lucide.min.js",
+  "./js/icons.js",
   "./js/dicas-ti.js",
   "./data/dicas-ti-videos.js",
   "./js/version.js",

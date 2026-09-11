@@ -16,7 +16,10 @@
         const img = document.createElement('img');
         img.src = 'https://img.youtube.com/vi/' + video.id + '/mqdefault.jpg';
         img.alt = video.titulo;
+        img.width = 320;
+        img.height = 180;
         img.loading = 'lazy';
+        img.decoding = 'async';
         img.className = 'w-full h-full object-cover';
         wrap.appendChild(img);
 
