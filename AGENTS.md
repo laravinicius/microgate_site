@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Static, multi-page marketing site for Microgate Informática (pt-BR). Plain HTML + Tailwind + vanilla JS. No build framework, no tests, no lint.
+Static, multi-page marketing site for Microgate IT Solutions (pt-BR). Plain HTML + Tailwind + vanilla JS. No build framework, no tests, no lint.
 
 ## Commands
 - `npm run dev` — Tailwind watch: `src/input.css` -> `css/output.css`

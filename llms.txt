@@ -1,8 +1,8 @@
-# Microgate Informática
+# Microgate IT Solutions
 
 > IT solutions company based in Campina Grande do Sul (PR), Brazil, operating since 2001. Offers IT management and consulting, network infrastructure, and specialized technical assistance for businesses of all sizes.
 
-The site content is in Portuguese (pt-BR). Microgate Informática serves companies with three main service areas:
+The site content is in Portuguese (pt-BR). Microgate IT Solutions serves companies with three main service areas:
 
 - IT Management & Consulting: unlimited corrective maintenance visits, preventive visits every 7 days, hardware/software maintenance, helpdesk channels (WhatsApp, e-mail, phone), e-mail management, virus removal, hardware upgrades, workstation/user setup, Active Directory domains, shared network folders (intranet), backup configuration, printer setup, and server installation/configuration.
 - Network Services & Infrastructure: corrective and preventive maintenance, network management, network design from scratch, cabled and wireless network installation, long-distance wireless network design, rack organization, network certification, network backup, redundancy, routers, switches, and firewalls.

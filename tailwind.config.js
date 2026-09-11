@@ -14,7 +14,7 @@ module.exports = {
                 }
             },
             backgroundImage: {
-                'metallic-chrome': 'linear-gradient(145deg, #fcfcfc 5%, #ffffff 15%, #9ca3af 50%, #4b5563 100%)'
+                'neon': 'linear-gradient(145deg, #ffffff 0%, #e5e7eb 45%, #9ca3af 100%)'
             }
         },
     },

@@ -1,21 +1,21 @@
-# Microgate Informática Website
+# Microgate IT Solutions Website
 
-Este é o repositório do website institucional da Microgate Informática, uma empresa especializada em soluções e serviços de TI. O site foi desenvolvido para apresentar a empresa, seus serviços, clientes e fornecer canais de contato.
+Este é o repositório do website institucional da Microgate IT Solutions, uma empresa especializada em soluções e serviços de TI. O site foi desenvolvido para apresentar a empresa, seus serviços, clientes e fornecer canais de contato.
 
 ## Visão Geral
 
-O website da Microgate Informática é uma plataforma estática e responsiva, projetada para ser informativa e de fácil navegação. Ele destaca a experiência da empresa desde 2005 e seu compromisso em simplificar a tecnologia para seus clientes.
+O website da Microgate IT Solutions é uma plataforma estática e responsiva, projetada para ser informativa e de fácil navegação. Ele destaca a experiência da empresa desde 2005 e seu compromisso em simplificar a tecnologia para seus clientes.
 
 ## Funcionalidades
 
--   **Página Inicial (`index.html`)**: Apresenta a Microgate Informática, sua missão e localização, com opções de contato e visualização de serviços.
+-   **Página Inicial (`index.html`)**: Apresenta a Microgate IT Solutions, sua missão e localização, com opções de contato e visualização de serviços.
 -   **Sobre Nós (`sobre.html`)**: Detalha a história da empresa, sua missão, visão e valores, além de um convite para contato.
 -   **Serviços (`servicos.html`)**: Lista os principais serviços oferecidos, como Gerenciamento & Consultoria, Serviços de Rede e Assistência Técnica, com links para páginas mais detalhadas.
 -   **Páginas de Serviço Detalhadas**:
     -   **Assistência Técnica (`assistencia.html`)**: Informações sobre os serviços de reparo e manutenção de hardware e software.
     -   **Consultoria (`consultoria.html`)**: Detalhes sobre gerenciamento e consultoria em informática e TI.
     -   **Rede (`rede.html`)**: Informações sobre serviços de infraestrutura e gerenciamento de rede.
--   **Clientes (`clientes.html`)**: Exibe os logotipos de empresas parceiras e clientes da Microgate Informática.
+-   **Clientes (`clientes.html`)**: Exibe os logotipos de empresas parceiras e clientes da Microgate IT Solutions.
 -   **Teste de Conexão (`testeconexao.html`)**: Uma ferramenta integrada para que os usuários possam testar a velocidade de sua conexão à internet.
 -   **Área Restrita (`restricted.html`)**: Links para sistemas internos e ferramentas de uso exclusivo da equipe Microgate (GLPI, Agenda de Técnicos, MK Auth, Webmail, etc.).
 -   **Navegação Responsiva**: O site é otimizado para visualização em diferentes dispositivos (desktops, tablets e smartphones).
@@ -81,8 +81,8 @@ Este é um site estático. Para visualizá-lo, basta abrir qualquer um dos arqui
 
 ## Contribuição
 
-Para contribuir com o projeto, por favor, entre em contato com a equipe de desenvolvimento da Microgate Informática.
+Para contribuir com o projeto, por favor, entre em contato com a equipe de desenvolvimento da Microgate IT Solutions.
 
 ## Licença
 
-Este projeto é proprietário da Microgate Informática.
+Este projeto é proprietário da Microgate IT Solutions.

@@ -55,7 +55,7 @@
         body.className = 'p-5 flex flex-col gap-2 flex-1';
 
         const badge = document.createElement('span');
-        badge.className = 'self-start bg-metallic-chrome text-black px-2 py-0.5 rounded-full text-xs font-bold uppercase tracking-wide';
+        badge.className = 'self-start bg-neon text-black px-2 py-0.5 rounded-full text-xs font-bold uppercase tracking-wide';
         badge.textContent = video.categoria;
 
         const h3 = document.createElement('h3');

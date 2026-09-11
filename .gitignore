@@ -9,6 +9,9 @@ Thumbs.db
 Desktop.ini
 .desktop.ini
 
+# Dev server
+server.js
+
 # Logs
 *.log
 *.plans

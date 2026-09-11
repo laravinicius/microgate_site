@@ -37,6 +37,10 @@ body::before {
     display: block;
 }
 
+.neon-glow {
+    text-shadow: 0 0 6px rgba(255,255,255,.9), 0 0 18px rgba(255,255,255,.45), 0 0 32px rgba(255,255,255,.25);
+}
+
 @media (min-width: 985px) {
     .desktop-nav {
         display: flex;

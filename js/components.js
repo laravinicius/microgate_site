@@ -85,6 +85,7 @@ function injectBreadcrumbSchema() {
         '/dicas-ti.html': { name: 'Dicas de TI', url: baseUrl + '/dicas-ti.html' },
         '/testeconexao.html': { name: 'Teste de Conexão', url: baseUrl + '/testeconexao.html' },
         '/restricted.html': { name: 'Restrito', url: baseUrl + '/restricted.html' },
+        '/downloads.html': { name: 'Downloads', url: baseUrl + '/downloads.html' },
         '/': { name: 'Início', url: baseUrl }
     };
 
