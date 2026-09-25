@@ -1,0 +1,18 @@
+# Canonicalize legacy HTML paths while keeping verification and restricted pages intact.
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+RewriteRule ^index\.html$ / [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/.+\.html[\s?] [NC]
+RewriteRule ^(?!restricted\.html$)(?!googlece07dce70d4eb9a2\.html$)(.+)\.html$ /$1 [R=301,L,NE]
+
+# Downloads shares a case-insensitive name with the Downloads/ asset directory on Windows.
+RewriteRule ^downloads/?$ downloads.html [L]
+
+# Serve an existing root-level HTML page at its extensionless URL.
+RewriteRule ^index/?$ / [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([A-Za-z0-9_-]+)/?$ $1.html [L]

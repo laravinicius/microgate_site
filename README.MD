@@ -10,7 +10,7 @@ O website da Microgate IT Solutions é uma plataforma estática e responsiva, pr
 
 -   **Página Inicial (`index.html`)**: Apresenta a Microgate IT Solutions, sua missão e localização, com opções de contato e visualização de serviços.
 -   **Sobre Nós (`sobre.html`)**: Detalha a história da empresa, sua missão, visão e valores, além de um convite para contato.
--   **Serviços (`servicos.html`)**: Lista os principais serviços oferecidos, como Gerenciamento & Consultoria, Serviços de Rede e Assistência Técnica, com links para páginas mais detalhadas.
+    -   **Serviços**: A seção com links para Assistência Técnica, Consultoria e Rede fica na página Sobre.
 -   **Páginas de Serviço Detalhadas**:
     -   **Assistência Técnica (`assistencia.html`)**: Informações sobre os serviços de reparo e manutenção de hardware e software.
     -   **Consultoria (`consultoria.html`)**: Detalhes sobre gerenciamento e consultoria em informática e TI.
@@ -58,7 +58,6 @@ microgate_site/
 ├── index.html              # Página Inicial
 ├── rede.html               # Página de Serviços de Rede
 ├── restricted.html         # Página de Área Restrita (links internos)
-├── servicos.html           # Página de Serviços
 ├── sobre.html              # Página Sobre Nós
 └── testeconexao.html       # Página de Teste de Conexão
 ```

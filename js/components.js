@@ -75,17 +75,17 @@ function injectBreadcrumbSchema() {
     const baseUrl = 'https://microgateinformatica.com.br';
 
     const pageMap = {
-        '/index.html': { name: 'Início', url: baseUrl },
-        '/sobre.html': { name: 'Sobre', url: baseUrl + '/sobre.html' },
-        '/servicos.html': { name: 'Serviços', url: baseUrl + '/servicos.html' },
-        '/consultoria.html': { name: 'Consultoria', url: baseUrl + '/consultoria.html' },
-        '/rede.html': { name: 'Rede', url: baseUrl + '/rede.html' },
-        '/assistencia.html': { name: 'Assistência', url: baseUrl + '/assistencia.html' },
-        '/clientes.html': { name: 'Clientes', url: baseUrl + '/clientes.html' },
-        '/dicas-ti.html': { name: 'Dicas de TI', url: baseUrl + '/dicas-ti.html' },
-        '/testeconexao.html': { name: 'Teste de Conexão', url: baseUrl + '/testeconexao.html' },
+        '/sobre': { name: 'Sobre', url: baseUrl + '/sobre' },
+        '/assistencia': { name: 'Assistência', url: baseUrl + '/assistencia' },
+        '/consultoria': { name: 'Consultoria', url: baseUrl + '/consultoria' },
+        '/rede': { name: 'Rede', url: baseUrl + '/rede' },
+        '/clientes': { name: 'Clientes', url: baseUrl + '/clientes' },
+        '/dicas-ti': { name: 'Dicas de TI', url: baseUrl + '/dicas-ti' },
+        '/testeconexao': { name: 'Teste de Conexão', url: baseUrl + '/testeconexao' },
+        '/portifolio': { name: 'Portfólio', url: baseUrl + '/portifolio' },
+        '/downloads': { name: 'Downloads', url: baseUrl + '/downloads' },
         '/restricted.html': { name: 'Restrito', url: baseUrl + '/restricted.html' },
-        '/downloads.html': { name: 'Downloads', url: baseUrl + '/downloads.html' },
+        '/sobre#servicos': { name: 'Serviços', url: baseUrl + '/sobre#servicos' },
         '/': { name: 'Início', url: baseUrl }
     };
 

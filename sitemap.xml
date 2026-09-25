@@ -1,40 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://microgateinformatica.com.br/</loc>
-  </url>
-
-  <url>
-    <loc>https://microgateinformatica.com.br/sobre</loc>
-  </url>
-
-  <url>
-    <loc>https://microgateinformatica.com.br/servicos</loc>
-  </url>
-
-  <url>
-    <loc>https://microgateinformatica.com.br/assistencia</loc>
-  </url>
-
-  <url>
-    <loc>https://microgateinformatica.com.br/consultoria</loc>
-  </url>
-
-  <url>
-    <loc>https://microgateinformatica.com.br/rede</loc>
-  </url>
-
-  <url>
-    <loc>https://microgateinformatica.com.br/clientes</loc>
-  </url>
-
-  <url>
-    <loc>https://microgateinformatica.com.br/testeconexao</loc>
-  </url>
-
-  <url>
-    <loc>https://microgateinformatica.com.br/dicas-ti</loc>
-  </url>
-
+  <url><loc>https://microgateinformatica.com.br/</loc></url>
+  <url><loc>https://microgateinformatica.com.br/sobre</loc></url>
+  <url><loc>https://microgateinformatica.com.br/assistencia</loc></url>
+  <url><loc>https://microgateinformatica.com.br/consultoria</loc></url>
+  <url><loc>https://microgateinformatica.com.br/rede</loc></url>
+  <url><loc>https://microgateinformatica.com.br/clientes</loc></url>
+  <url><loc>https://microgateinformatica.com.br/testeconexao</loc></url>
+  <url><loc>https://microgateinformatica.com.br/dicas-ti</loc></url>
+  <url><loc>https://microgateinformatica.com.br/teste_teclado</loc></url>
 </urlset>

@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /restricted.html
+Disallow: /restricted
 Disallow: /suporte_microgate.exe
 Disallow: /SuporteTi.exe
 
