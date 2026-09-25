@@ -10,13 +10,16 @@ async function loadComponents() {
                 `${comp.file}?v=${window.APP_VERSION || Date.now()}`,
                 { cache: "no-cache" },
             );
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status} ${response.statusText}`);
+            }
             const html = await response.text();
             const el = document.getElementById(comp.id);
             if (el) {
                 el.innerHTML = html;
             }
         } catch (err) {
-            console.error(`Erro ao carregar ${comp.file}:`, err);
+            console.error(`Falha ao carregar o componente ${comp.file}:`, err);
         }
     }
 
