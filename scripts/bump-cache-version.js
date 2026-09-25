@@ -4,6 +4,28 @@ const path = require("path");
 const ROOT = path.join(__dirname, "..");
 const VERSION = Date.now().toString(36);
 
+const componentFallbacks = {
+  "header-placeholder": fs.readFileSync(path.join(ROOT, "components", "header.html"), "utf8"),
+  "footer-placeholder": fs.readFileSync(path.join(ROOT, "components", "footer.html"), "utf8"),
+};
+const componentsScriptPath = path.join(ROOT, "js", "components.js");
+const componentsScript = fs.readFileSync(componentsScriptPath, "utf8");
+const fallbackStart = "// COMPONENT_FALLBACKS_START";
+const fallbackEnd = "// COMPONENT_FALLBACKS_END";
+const fallbackStartIndex = componentsScript.indexOf(fallbackStart);
+const fallbackEndIndex = componentsScript.indexOf(fallbackEnd);
+
+if (fallbackStartIndex === -1 || fallbackEndIndex === -1 || fallbackEndIndex < fallbackStartIndex) {
+  throw new Error("Marcadores do fallback de componentes ausentes em js/components.js");
+}
+
+const fallbackBlock = `${fallbackStart}\nconst FALLBACK_COMPONENTS = ${JSON.stringify(componentFallbacks, null, 2)};\n${fallbackEnd}`;
+const updatedComponentsScript =
+  componentsScript.slice(0, fallbackStartIndex) +
+  fallbackBlock +
+  componentsScript.slice(fallbackEndIndex + fallbackEnd.length);
+fs.writeFileSync(componentsScriptPath, updatedComponentsScript, "utf8");
+
 const ASSETS = [
   "./css/output.css",
   "./css/style.css",
