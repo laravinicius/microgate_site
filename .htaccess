@@ -1,10 +1,14 @@
 # Canonicalize legacy HTML paths while keeping verification and restricted pages intact.
 RewriteEngine On
 
+# Keep the old services URL useful by sending it to the current services section.
+RewriteRule ^servicos(?:\.html)?/?$ /sobre#servicos [R=301,L,NE]
+
 RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
 RewriteRule ^index\.html$ / [R=301,L]
 
 RewriteCond %{THE_REQUEST} \s/.+\.html[\s?] [NC]
+RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^(?!restricted\.html$)(?!googlece07dce70d4eb9a2\.html$)(.+)\.html$ /$1 [R=301,L,NE]
 
 # Downloads shares a case-insensitive name with the Downloads/ asset directory on Windows.
