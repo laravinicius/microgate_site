@@ -1,0 +1,9 @@
+services:
+  microgate-site:
+    build: .
+    container_name: microgate-site
+    ports:
+      - "8089:8089"
+    volumes:
+      - .:/site:ro
+    restart: unless-stopped

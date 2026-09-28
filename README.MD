@@ -66,6 +66,22 @@ microgate_site/
 
 Este é um site estático. Para visualizá-lo, basta abrir qualquer um dos arquivos `.html` diretamente em seu navegador web. Para um ambiente de desenvolvimento ou produção, os arquivos podem ser servidos por qualquer servidor web (Apache, Nginx, etc.).
 
+### Servidor local com Docker
+
+Com o Docker Desktop aberto, inicie o servidor uma vez:
+
+```bash
+docker compose up -d --build
+```
+
+Acesse `http://localhost:8089`. Os arquivos do projeto são montados no container, então alterações locais ficam disponíveis sem reconstruir a imagem. O container reinicia automaticamente quando o Docker Desktop iniciar.
+
+Para parar o servidor:
+
+```bash
+docker compose down
+```
+
 > Sempre rodar `npm run build` antes de commitar qualquer mudança em `src/input.css`, `tailwind.config.js`, `components/*.html`, ou qualquer arquivo `.html`/`.js` referenciado no `<head>`. O `postbuild` atualiza os `?v=` (cache busting) automaticamente — commitar os arquivos alterados junto (`css/output.css`, `js/version.js` e os `.html` com novo `?v=`).
 
 1.  Clone o repositório:
