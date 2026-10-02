@@ -1,1 +1,1 @@
-window.APP_VERSION = "mumydedr";
+window.APP_VERSION = "murce95t";

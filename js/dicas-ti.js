@@ -26,7 +26,7 @@
         const overlay = document.createElement('div');
         overlay.className = 'absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/50 transition';
         const play = document.createElement('span');
-        play.className = 'w-12 h-12 flex items-center justify-center rounded-full bg-white/90 text-black shadow-lg transition hover:scale-110';
+        play.className = 'site-play w-12 h-12 flex items-center justify-center';
         const icon = document.createElement('i');
         icon.setAttribute('data-lucide', 'play');
         icon.className = 'w-6 h-6 fill-current ml-0.5';
@@ -51,14 +51,14 @@
     function makeCard(video, isCarousel) {
         const article = document.createElement('article');
         article.className = isCarousel
-            ? 'snap-start shrink-0 w-72 md:w-80 bg-white/5 border border-white/10 rounded-2xl overflow-hidden flex flex-col'
-            : 'bg-white/5 border border-white/10 rounded-2xl overflow-hidden flex flex-col';
+            ? 'site-card snap-start shrink-0 w-72 md:w-80 overflow-hidden flex flex-col'
+            : 'site-card overflow-hidden flex flex-col';
 
         const body = document.createElement('div');
         body.className = 'p-5 flex flex-col gap-2 flex-1';
 
         const badge = document.createElement('span');
-        badge.className = 'self-start bg-neon text-black px-2 py-0.5 rounded-full text-xs font-bold uppercase tracking-wide';
+        badge.className = 'site-badge self-start text-xs font-bold uppercase tracking-wide';
         badge.textContent = video.categoria;
 
         const h3 = document.createElement('h3');
@@ -66,7 +66,7 @@
         h3.textContent = video.titulo;
 
         const p = document.createElement('p');
-        p.className = 'text-sm text-gray-400 leading-relaxed';
+        p.className = 'site-copy text-sm leading-relaxed';
         p.textContent = video.descricao;
 
         body.appendChild(badge);
@@ -93,11 +93,14 @@
                 const card = track.querySelector('article');
                 return card ? card.offsetWidth + 24 : 320;
             };
+            const scrollBehavior = function () {
+                return window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+            };
             prev.addEventListener('click', function () {
-                track.scrollBy({ left: -step(), behavior: 'smooth' });
+                track.scrollBy({ left: -step(), behavior: scrollBehavior() });
             });
             next.addEventListener('click', function () {
-                track.scrollBy({ left: step(), behavior: 'smooth' });
+                track.scrollBy({ left: step(), behavior: scrollBehavior() });
             });
         }
         return track;
