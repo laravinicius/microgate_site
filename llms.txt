@@ -12,23 +12,23 @@ Contact: phone (41) 3679-7168, WhatsApp (41) 9955-0984, Rua Leonardo Francischel
 
 ## Pages
 
-- [Home](https://microgateinformatica.com.br/): Company presentation, location, and contact information
-- [About](https://microgateinformatica.com.br/sobre): Company history, mission, and vision
-- [Services](https://microgateinformatica.com.br/sobre#servicos): Overview of the solutions offered
-- [Clients](https://microgateinformatica.com.br/clientes): Client logos served by the company
-- [Connection test](https://microgateinformatica.com.br/testeconexao): Internet speed test tool
-- [IT tips](https://microgateinformatica.com.br/dicas-ti): Curated videos from the Cidadão na Rede (NIC.br) project on digital security, data protection, and responsible internet use
+- [Home](https://microgateit.com.br/): Company presentation, location, and contact information
+- [About](https://microgateit.com.br/sobre): Company history, mission, and vision
+- [Services](https://microgateit.com.br/sobre#servicos): Overview of the solutions offered
+- [Clients](https://microgateit.com.br/clientes): Client logos served by the company
+- [Connection test](https://microgateit.com.br/testeconexao): Internet speed test tool
+- [IT tips](https://microgateit.com.br/dicas-ti): Curated videos from the Cidadão na Rede (NIC.br) project on digital security, data protection, and responsible internet use
 
 ## Services
 
-- [IT Management & Consulting](https://microgateinformatica.com.br/consultoria): Complete list of IT management and consulting services
-- [Network Services & Infrastructure](https://microgateinformatica.com.br/rede): Complete list of network and infrastructure services
-- [Specialized Technical Assistance](https://microgateinformatica.com.br/assistencia): Complete list of technical assistance services
+- [IT Management & Consulting](https://microgateit.com.br/consultoria): Complete list of IT management and consulting services
+- [Network Services & Infrastructure](https://microgateit.com.br/rede): Complete list of network and infrastructure services
+- [Specialized Technical Assistance](https://microgateit.com.br/assistencia): Complete list of technical assistance services
 
 ## Optional
 
 - [Quote via WhatsApp](https://wa.me/554199550984): Request a personalized budget
-- [Client Portal](https://sistema.microgateinformatica.com.br/central/login.php): Customer access portal
+- [Client Portal](https://sistema.microgateit.com.br/central/login.php): Customer access portal
 - [Facebook](https://facebook.com/microgatenet): Official Facebook page
 - [Instagram](https://instagram.com/microgateinformatica): Official Instagram page
-- [ABNT2 keyboard test](https://microgateinformatica.com.br/teste_teclado): Keyboard testing tool
+- [ABNT2 keyboard test](https://microgateit.com.br/teste_teclado): Keyboard testing tool

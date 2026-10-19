@@ -6,4 +6,4 @@ Disallow: /suporte_microgate.exe
 Disallow: /SuporteTi.exe
 
 
-Sitemap: https://microgateinformatica.com.br/sitemap.xml
+Sitemap: https://microgateit.com.br/sitemap.xml
