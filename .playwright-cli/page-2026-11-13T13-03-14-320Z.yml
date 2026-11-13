@@ -1,0 +1,140 @@
+- generic [active] [ref=e1]:
+  - link "Ir para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#conteudo"
+  - generic "Navegação das propostas" [ref=e3]:
+    - link "Comparar" [ref=e4] [cursor=pointer]:
+      - /url: output/previews/index.html
+      - text: ← Comparar
+    - generic [ref=e5]: Prévia
+    - navigation "Escolher outra proposta" [ref=e6]:
+      - link "1 Infraestrutura" [ref=e7] [cursor=pointer]:
+        - /url: output/previews/proposta-1.html
+        - generic [ref=e8]: "1"
+        - generic [ref=e9]: Infraestrutura
+      - link "2 Institucional" [ref=e10] [cursor=pointer]:
+        - /url: output/previews/proposta-2.html
+        - generic [ref=e11]: "2"
+        - generic [ref=e12]: Institucional
+      - link "3 Conexões" [ref=e13] [cursor=pointer]:
+        - /url: output/previews/proposta-3.html
+        - generic [ref=e14]: "3"
+        - generic [ref=e15]: Conexões
+      - link "4 Projetos" [ref=e16] [cursor=pointer]:
+        - /url: output/previews/proposta-4.html
+        - generic [ref=e17]: "4"
+        - generic [ref=e18]: Projetos
+      - link "5 Geométrica" [ref=e19] [cursor=pointer]:
+        - /url: output/previews/proposta-5.html
+        - generic [ref=e20]: "5"
+        - generic [ref=e21]: Geométrica
+  - navigation [ref=e23]:
+    - link [ref=e25] [cursor=pointer]:
+      - /url: /
+      - img "Microgate" [ref=e26]
+    - generic [ref=e29]:
+      - link "Início" [ref=e30] [cursor=pointer]:
+        - /url: /
+      - link "Sobre" [ref=e31] [cursor=pointer]:
+        - /url: /sobre
+      - link "Portfólio" [ref=e32] [cursor=pointer]:
+        - /url: /portifolio
+      - link "Clientes" [ref=e33] [cursor=pointer]:
+        - /url: /clientes
+      - link "Teste de conexão" [ref=e34] [cursor=pointer]:
+        - /url: /testeconexao
+      - link "Dicas de TI" [ref=e35] [cursor=pointer]:
+        - /url: /dicas-ti
+      - link "Central do Cliente" [ref=e36] [cursor=pointer]:
+        - /url: https://sistema.microgateit.com.br/central/login.php
+      - link "Restrito" [ref=e37] [cursor=pointer]:
+        - /url: restricted.html
+      - link "Suporte Remoto" [ref=e39] [cursor=pointer]:
+        - /url: /downloads
+  - main [ref=e42]:
+    - generic [ref=e44]:
+      - paragraph [ref=e45]: Microgate IT Solutions / Estudo visual
+      - heading "Uma nova direção para a Microgate." [level=1] [ref=e46]: Uma nova direçãopara a Microgate.
+      - paragraph [ref=e47]: Cinco propostas para a página inicial. Explore cada uma e escolha a identidade que melhor representa a empresa.
+      - link "Explorar propostas" [ref=e48] [cursor=pointer]:
+        - /url: "#propostas"
+        - text: Explorar propostas
+        - generic [aria-hidden] [ref=e49]: ↓
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: Escolha sua favorita
+          - heading "Cinco caminhos. Uma só Microgate." [level=2] [ref=e55]: Cinco caminhos.Uma só Microgate.
+        - paragraph [ref=e56]: Os modelos são navegáveis e adaptados para celular. Use a barra superior para alternar entre eles.
+      - generic [ref=e57]:
+        - link "01 Infraestrutura PROPOSTA 01 Infraestrutura em destaque" [ref=e58] [cursor=pointer]:
+          - /url: output/previews/proposta-1.html
+          - generic [ref=e59]:
+            - generic [ref=e60]: "01"
+            - strong [ref=e61]: Infraestrutura
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - paragraph [ref=e64]: PROPOSTA 01
+              - heading "Infraestrutura em destaque" [level=2] [ref=e65]
+            - generic [aria-hidden] [ref=e66]: ↗
+        - link "02 Institucional PROPOSTA 02 Institucional claro" [ref=e67] [cursor=pointer]:
+          - /url: output/previews/proposta-2.html
+          - generic [ref=e68]:
+            - generic [ref=e69]: "02"
+            - strong [ref=e70]: Institucional
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - paragraph [ref=e73]: PROPOSTA 02
+              - heading "Institucional claro" [level=2] [ref=e74]
+            - generic [aria-hidden] [ref=e75]: ↗
+        - link "03 Conexões PROPOSTA 03 Conexões" [ref=e76] [cursor=pointer]:
+          - /url: output/previews/proposta-3.html
+          - generic [ref=e77]:
+            - generic [ref=e78]: "03"
+            - strong [ref=e79]: Conexões
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - paragraph [ref=e82]: PROPOSTA 03
+              - heading "Conexões" [level=2] [ref=e83]
+            - generic [aria-hidden] [ref=e84]: ↗
+        - link "04 Projetos PROPOSTA 04 Projetos em foco" [ref=e85] [cursor=pointer]:
+          - /url: output/previews/proposta-4.html
+          - generic [ref=e86]:
+            - generic [ref=e87]: "04"
+            - strong [ref=e88]: Projetos
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - paragraph [ref=e91]: PROPOSTA 04
+              - heading "Projetos em foco" [level=2] [ref=e92]
+            - generic [aria-hidden] [ref=e93]: ↗
+        - link "05 Geométrica PROPOSTA 05 Marca geométrica" [ref=e94] [cursor=pointer]:
+          - /url: output/previews/proposta-5.html
+          - generic [ref=e95]:
+            - generic [ref=e96]: "05"
+            - strong [ref=e97]: Geométrica
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - paragraph [ref=e100]: PROPOSTA 05
+              - heading "Marca geométrica" [level=2] [ref=e101]
+            - generic [aria-hidden] [ref=e102]: ↗
+  - contentinfo [ref=e103]:
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - img "Microgate Logo" [ref=e106]
+        - paragraph [ref=e107]: Sua estrutura de TI em boas mãos.
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]: Horários
+          - paragraph [ref=e111]: "Seg a Sex: 09h - 18h"
+          - paragraph [ref=e112]: "Sáb: 09h - 14h"
+        - generic [ref=e113]:
+          - generic [ref=e114]: Unidades
+          - paragraph [ref=e115]: Matriz - Campina Grande do Sul - PR
+          - paragraph [ref=e116]: (41) 3679-7168
+        - generic [ref=e117]:
+          - generic [ref=e118]: Redes sociais
+          - generic [ref=e119]:
+            - link "Facebook" [ref=e120] [cursor=pointer]:
+              - /url: https://facebook.com/microgatenet
+            - link "Instagram" [ref=e123] [cursor=pointer]:
+              - /url: https://www.instagram.com/microgateitsolutions/
+    - generic [ref=e127]: © 2026 Microgate IT Solutions

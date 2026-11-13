@@ -34,6 +34,7 @@ const ASSETS = [
   "./js/lucide.min.js",
   "./js/icons.js",
   "./js/dicas-ti.js",
+  "./js/redesign.js",
   "./data/dicas-ti-videos.js",
   "./js/version.js",
 ];

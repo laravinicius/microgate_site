@@ -12,7 +12,7 @@ Static, multi-page marketing site for Microgate IT Solutions (pt-BR). Plain HTML
 Tailwind CLI runs despite `main: "index.js"` pointing at a file that doesn't exist — ignore that field. `css/output.css` is committed; rebuild it after editing Tailwind classes or `tailwind.config.js`.
 
 ## Gotchas
-- `darkMode: 'class'` and `js/theme.js` force dark mode permanently (`document.documentElement.classList.add('dark')`). There is no working light/dark toggle.
+- The current visual combines dark and light sections. `js/theme.js` is legacy and is not loaded by the redesigned pages; there is no light/dark toggle.
 - Header/footer are NOT inline. Each `.html` must include `<div id="header-placeholder">` / `<div id="footer-placeholder">`, load `./js/components.js` and the lucide CDN `<script src="https://unpkg.com/lucide@latest"></script>`. `components.js` fetches `./components/{header,footer}.html` then calls `lucide.createIcons()` — lucide must load first. New pages must replicate this wiring.
 - Source files are not clean UTF-8; some accented chars render as mojibake (`á` -> `A?`) in browser/devtools. Keep edits ASCII-safe or normalize encoding consistently; don't "fix" unrelated occurrences.
 - Content paths in `tailwind.config.js` are relative to repo root (`./*.{html,js}`, `./components/`, `./js/`).
@@ -23,6 +23,7 @@ Tailwind CLI runs despite `main: "index.js"` pointing at a file that doesn't exi
 - `js/escala.js` / `js/escala-abas.js` are internal-only (tech schedule); not used by public pages.
 - Root artifacts to leave alone: `googlece07dce70d4eb9a2.html` (Google Search Console verification), `robots.txt` / `sitemap.xml` (reference production domain `microgateit.com.br`).
 - Custom (non-Tailwind) styling lives in `css/style.css` (`boxed-layout`, `content-wrapper` classes).
+- `js/redesign.js` renders the TI videos and handles the scroll reveal and mobile-menu accessibility enhancements.
 
 ## Backend
 `package.json` lists unused deps (`express`, `sqlite3`, `jsonwebtoken`, `bcryptjs`, `dotenv`, `cors`) but there is NO backend/server code. The site is static and deployed as-is. Don't treat these deps as active.

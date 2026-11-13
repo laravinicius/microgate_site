@@ -4,7 +4,7 @@ Este é o repositório do website institucional da Microgate IT Solutions, uma e
 
 ## Visão Geral
 
-O website da Microgate IT Solutions é uma plataforma estática e responsiva, projetada para ser informativa e de fácil navegação. Ele destaca a experiência da empresa desde 2005 e seu compromisso em simplificar a tecnologia para seus clientes.
+O website da Microgate IT Solutions é uma plataforma estática e responsiva, projetada para ser informativa e de fácil navegação. Ele destaca a experiência da empresa desde 2001 e seu compromisso em simplificar a tecnologia para seus clientes.
 
 ## Funcionalidades
 
@@ -19,7 +19,7 @@ O website da Microgate IT Solutions é uma plataforma estática e responsiva, pr
 -   **Teste de Conexão (`testeconexao.html`)**: Uma ferramenta integrada para que os usuários possam testar a velocidade de sua conexão à internet.
 -   **Área Restrita (`restricted.html`)**: Links para sistemas internos e ferramentas de uso exclusivo da equipe Microgate (GLPI, Agenda de Técnicos, MK Auth, Webmail, etc.).
 -   **Navegação Responsiva**: O site é otimizado para visualização em diferentes dispositivos (desktops, tablets e smartphones).
--   **Modo Escuro (Dark Mode)**: Suporte a tema escuro para uma melhor experiência visual.
+-   **Identidade visual**: Seções claras e escuras, com animações que respeitam a preferência por movimento reduzido.
 -   **Componentes Reutilizáveis**: Cabeçalho e rodapé são carregados dinamicamente para consistência e facilidade de manutenção.
 -   **Integração com WhatsApp**: Botões de contato direto via WhatsApp em várias páginas.
 
@@ -30,11 +30,11 @@ O website da Microgate IT Solutions é uma plataforma estática e responsiva, pr
     -   **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva.
     -   **Custom CSS (`style.css`)**: Estilos adicionais e personalizações.
 -   **JavaScript**:
-    -   **`theme.js`**: Gerenciamento do tema (claro/escuro).
+    -   **`redesign.js`**: Vídeos de dicas, animações ao rolar e melhorias de acessibilidade do menu.
     -   **`components.js`**: Carregamento dinâmico de componentes como cabeçalho e rodapé.
     -   **`escala-abas.js`**: (Provavelmente para um painel administrativo interno) Gerenciamento de abas e exibição de escala de técnicos.
 -   **Lucide Icons**: Biblioteca de ícones vetoriais leves e personalizáveis.
--   **Google Fonts**: Utilização da fonte 'Inter' para uma tipografia moderna e legível.
+-   **Google Fonts**: Utilização das fontes DM Sans e Outfit no site institucional.
 
 ## Estrutura do Projeto
 
@@ -47,7 +47,8 @@ microgate_site/
 ├── js/
 │   ├── components.js       # Script para carregar componentes (header, footer)
 │   ├── escala-abas.js      # Script para gerenciamento de abas de escala (uso interno)
-│   ├── theme.js            # Script para alternar temas (dark/light)
+│   ├── redesign.js         # Vídeos, animações e acessibilidade do menu
+│   ├── theme.js            # Script legado, não carregado pelo visual atual
 │   └── version.js          # Versão de cache gerada pelo postbuild (cache busting)
 ├── components/
 │   ├── footer.html         # Componente HTML do rodapé

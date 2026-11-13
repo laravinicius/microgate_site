@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - link "Ir para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: /output/previews/site/index.html#conteudo
+  - generic [ref=e3]:
+    - generic [ref=e4]: Prévia do site
+    - generic [aria-hidden] [ref=e5]: ·
+    - generic [ref=e6]: Microgate IT Solutions
+  - navigation [ref=e8]:
+    - link [ref=e10] [cursor=pointer]:
+      - /url: /output/previews/site/index.html
+      - img "Microgate" [ref=e11]
+    - generic [ref=e14]:
+      - link "Início" [ref=e15] [cursor=pointer]:
+        - /url: /output/previews/site/index.html
+      - link "Sobre" [ref=e16] [cursor=pointer]:
+        - /url: /output/previews/site/sobre.html
+      - link "Portfólio" [ref=e17] [cursor=pointer]:
+        - /url: /output/previews/site/portifolio.html
+      - link "Clientes" [ref=e18] [cursor=pointer]:
+        - /url: /output/previews/site/clientes.html
+      - link "Teste de conexão" [ref=e19] [cursor=pointer]:
+        - /url: /output/previews/site/testeconexao.html
+      - link "Dicas de TI" [ref=e20] [cursor=pointer]:
+        - /url: /output/previews/site/dicas-ti.html
+      - link "Central do Cliente" [ref=e21] [cursor=pointer]:
+        - /url: https://sistema.microgateit.com.br/central/login.php
+      - link "Restrito" [ref=e22] [cursor=pointer]:
+        - /url: /output/previews/site/restricted.html
+      - link "Suporte Remoto" [ref=e24] [cursor=pointer]:
+        - /url: /output/previews/site/downloads.html
+  - main [ref=e27]:
+    - region "Uma TI mais simples começa com as pessoas certas." [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - paragraph [ref=e31]: Microgate IT Solutions
+          - heading "Uma TI mais simples começa com as pessoas certas." [level=1] [ref=e33]
+          - paragraph [ref=e34]: Consultoria, suporte e infraestrutura para sua equipe trabalhar com tranquilidade todos os dias.
+          - generic [ref=e35]:
+            - link "Fale com a Microgate" [ref=e36] [cursor=pointer]:
+              - /url: https://wa.me/554199550984
+              - text: Fale com a Microgate
+              - generic [aria-hidden] [ref=e37]: ↗
+            - link "Conheça nossos serviços" [ref=e38] [cursor=pointer]:
+              - /url: /output/previews/site/index.html#servicos
+              - text: Conheça nossos serviços
+              - generic [aria-hidden] [ref=e39]: ↓
+        - generic [ref=e40]:
+          - img "Rack e equipamentos de infraestrutura de TI" [ref=e41]
+          - generic [ref=e42]:
+            - generic [ref=e43]: Microgate / Infraestrutura
+            - strong [ref=e44]: Perto da sua empresa. Presente no que importa.
+      - generic [ref=e45]:
+        - generic [ref=e46]: Campina Grande do Sul, PR
+        - generic [ref=e47]: TI para empresas desde 2001
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: O que fazemos
+        - heading "Tecnologia que acompanha a sua rotina." [level=2] [ref=e52]
+        - paragraph [ref=e53]: Da estratégia ao atendimento, a Microgate reúne soluções para as necessidades de TI da sua empresa.
+        - link "Ver todos os serviços" [ref=e54] [cursor=pointer]:
+          - /url: /output/previews/site/sobre.html#servicos
+          - text: Ver todos os serviços
+          - generic [aria-hidden] [ref=e55]: ↗
+      - generic [ref=e56]:
+        - link "Consultoria e gestão Servidores, backups, segurança e suporte para o dia a dia." [ref=e57] [cursor=pointer]:
+          - /url: /output/previews/site/consultoria.html
+          - generic [ref=e70]:
+            - strong [ref=e71]: Consultoria e gestão
+            - generic [ref=e72]: Servidores, backups, segurança e suporte para o dia a dia.
+          - generic [aria-hidden] [ref=e73]: ↗
+        - link "Redes e infraestrutura Projetos, cabeamento, Wi-Fi, racks e equipamentos de rede." [ref=e74] [cursor=pointer]:
+          - /url: /output/previews/site/rede.html
+          - generic [ref=e80]:
+            - strong [ref=e81]: Redes e infraestrutura
+            - generic [ref=e82]: Projetos, cabeamento, Wi-Fi, racks e equipamentos de rede.
+          - generic [aria-hidden] [ref=e83]: ↗
+        - link "Assistência técnica Manutenção, reparos e melhorias para seus equipamentos." [ref=e84] [cursor=pointer]:
+          - /url: /output/previews/site/assistencia.html
+          - generic [ref=e89]:
+            - strong [ref=e90]: Assistência técnica
+            - generic [ref=e91]: Manutenção, reparos e melhorias para seus equipamentos.
+          - generic [aria-hidden] [ref=e92]: ↗
+    - region "Organização que se vê. Infraestrutura que se sente." [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - img "Racks do datacenter da WAP após a reestruturação" [ref=e96]
+          - generic [ref=e97]: Infraestrutura / Projeto WAP
+        - generic [ref=e98]:
+          - paragraph [ref=e99]: Trabalho em campo
+          - heading "Organização que se vê. Infraestrutura que se sente." [level=2] [ref=e100]
+          - paragraph [ref=e101]: Na WAP, a Microgate trabalhou na reestruturação dos racks, no cabeamento e no mapeamento dos pontos de rede do datacenter.
+          - link "Conheça o projeto" [ref=e102] [cursor=pointer]:
+            - /url: /output/previews/site/portifolio.html
+            - text: Conheça o projeto
+            - generic [aria-hidden] [ref=e103]: ↗
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - paragraph [ref=e108]: Conhecimento para o dia a dia
+          - heading "Dicas de TI" [level=2] [ref=e109]
+        - link "Ver todas as dicas" [ref=e110] [cursor=pointer]:
+          - /url: /output/previews/site/dicas-ti.html
+          - text: Ver todas as dicas
+          - generic [aria-hidden] [ref=e111]: ↗
+      - paragraph [ref=e112]: Vídeos do projeto Cidadão na Rede, do NIC.br, sobre segurança digital e uso responsável da internet.
+      - generic [ref=e113]:
+        - article [ref=e114]:
+          - 'button "Reproduzir vídeo: Não forneça seus dados bancários" [ref=e115] [cursor=pointer]':
+            - generic [aria-hidden] [ref=e116]: ▶
+          - paragraph [ref=e117]: Segurança
+          - heading "Não forneça seus dados bancários" [level=3] [ref=e118]
+          - paragraph [ref=e119]: Golpistas usam mensagens e ligações se passando por instituições confiáveis. Aprenda a identificar golpes e proteger dados bancários.
+        - article [ref=e120]:
+          - 'button "Reproduzir vídeo: Exclua cadastros de serviços que não usa mais" [ref=e121] [cursor=pointer]':
+            - generic [aria-hidden] [ref=e122]: ▶
+          - paragraph [ref=e123]: LGPD
+          - heading "Exclua cadastros de serviços que não usa mais" [level=3] [ref=e124]
+          - paragraph [ref=e125]: A LGPD garante o direito de excluir cadastros e dados pessoais de serviços que você não usa mais. Saiba como reduzir sua pegada digital.
+        - article [ref=e126]:
+          - 'button "Reproduzir vídeo: Conteste compras indevidas no cartão de crédito" [ref=e127] [cursor=pointer]':
+            - generic [aria-hidden] [ref=e128]: ▶
+          - paragraph [ref=e129]: Segurança
+          - heading "Conteste compras indevidas no cartão de crédito" [level=3] [ref=e130]
+          - paragraph [ref=e131]: Compras desconhecidas na fatura podem indicar fraude ou vazamento de dados. Veja como contestar transações indevidas pelos canais do banco.
+      - paragraph [ref=e132]:
+        - text: Cidadão na Rede / NIC.br · vídeos sob licença
+        - link "CC BY-ND 4.0" [ref=e133] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by-nd/4.0/deed.pt-br
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - paragraph [ref=e137]: Estamos por perto
+        - heading "Vamos conversar sobre a sua TI?" [level=2] [ref=e138]
+        - paragraph [ref=e139]: Estamos em Campina Grande do Sul, prontos para ajudar a sua empresa.
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e142]: Endereço
+            - paragraph [ref=e143]: Rua Leonardo Francischelli, 265 · Sala 04Campina Grande do Sul – PR
+          - generic [ref=e144]:
+            - generic [ref=e145]: Telefone
+            - paragraph [ref=e146]:
+              - link "(41) 3679-7168" [ref=e147] [cursor=pointer]:
+                - /url: tel:+554136797168
+          - generic [ref=e148]:
+            - generic [ref=e149]: WhatsApp
+            - paragraph [ref=e150]:
+              - link "(41) 9955-0984" [ref=e151] [cursor=pointer]:
+                - /url: https://wa.me/554199550984
+        - link "Iniciar atendimento" [ref=e152] [cursor=pointer]:
+          - /url: https://wa.me/554199550984
+          - text: Iniciar atendimento
+          - generic [aria-hidden] [ref=e153]: ↗
+      - generic [ref=e154]:
+        - iframe [ref=e155]
+        - link "Abrir no Google Maps" [ref=e156] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=Microgate+IT+Solutions+Campina+Grande+do+Sul
+          - text: Abrir no Google Maps
+          - generic [aria-hidden] [ref=e157]: ↗
+  - contentinfo [ref=e158]:
+    - generic [ref=e159]:
+      - generic [ref=e160]:
+        - img "Microgate Logo" [ref=e161]
+        - paragraph [ref=e162]: Sua estrutura de TI em boas mãos.
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: Horários
+          - paragraph [ref=e166]: "Seg a Sex: 09h - 18h"
+          - paragraph [ref=e167]: "Sáb: 09h - 14h"
+        - generic [ref=e168]:
+          - generic [ref=e169]: Unidades
+          - paragraph [ref=e170]: Matriz - Campina Grande do Sul - PR
+          - paragraph [ref=e171]: (41) 3679-7168
+        - generic [ref=e172]:
+          - generic [ref=e173]: Redes sociais
+          - generic [ref=e174]:
+            - link "Facebook" [ref=e175] [cursor=pointer]:
+              - /url: https://facebook.com/microgatenet
+            - link "Instagram" [ref=e178] [cursor=pointer]:
+              - /url: https://www.instagram.com/microgateitsolutions/
+    - generic [ref=e182]: © 2026 Microgate IT Solutions
