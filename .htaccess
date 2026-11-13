@@ -9,7 +9,7 @@ RewriteRule ^index\.html$ / [R=301,L]
 
 RewriteCond %{THE_REQUEST} \s/.+\.html[\s?] [NC]
 RewriteCond %{REQUEST_FILENAME} -f
-RewriteRule ^(?!restricted\.html$)(?!googlece07dce70d4eb9a2\.html$)(.+)\.html$ /$1 [R=301,L,NE]
+RewriteRule ^(?!restricted\.html$)(?!googlece07dce70d4eb9a2\.html$)([^/]+)\.html$ /$1 [R=301,L,NE]
 
 # Downloads shares a case-insensitive name with the Downloads/ asset directory on Windows.
 RewriteRule ^downloads/?$ downloads.html [L]
