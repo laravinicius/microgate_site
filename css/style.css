@@ -616,7 +616,7 @@ body.mg-site { margin: 0; background: var(--bg); color: var(--ink); font-family:
 .mg-site .desktop-nav > div { justify-content: flex-end; flex-wrap: nowrap; gap: 1px; }
 .mg-site .desktop-nav a { min-height: 44px; padding: 8px 8px; border: 0; border-radius: 0; white-space: nowrap; color: var(--nav-ink); font: 600 12px/1.2 var(--body); }
 .mg-site .desktop-nav a:hover, .mg-site .desktop-nav a:focus-visible { color: var(--nav-accent); background: transparent; }
-.mg-site .desktop-nav > div > a > svg, .mg-site .desktop-nav > div > .group > a > svg:first-child { display: none; }
+.mg-site .desktop-nav > div > a > i, .mg-site .desktop-nav > div > a > svg, .mg-site .desktop-nav > div > .group > a > i:first-child, .mg-site .desktop-nav > div > .group > a > svg:first-child { display: none; }
 .mg-site .desktop-nav .group:hover > div, .mg-site .desktop-nav .group:focus-within > div { visibility: visible; opacity: 1; }
 .mg-site .desktop-nav .group > div { left: auto; right: 0; }
 .mg-site .desktop-nav .group > div > div { background: #16252e; }
